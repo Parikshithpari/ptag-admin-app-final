@@ -1,0 +1,10 @@
+{
+  "name": "PTag Admin Dashboard",
+  "short_name": "PTag Admin",
+  "start_url": "/admin",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#8B3A3A",
+  "orientation": "portrait",
+  "icons": []
+}
