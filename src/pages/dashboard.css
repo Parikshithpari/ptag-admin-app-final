@@ -1,0 +1,30 @@
+/* Placeholder styles — replace with your real dashboard.css for full styling */
+.admindash-wrapper { min-height: 100vh; background: #fafafa; font-family: system-ui, sans-serif; }
+.adminlog-navbar { display: flex; align-items: center; gap: 16px; padding: 12px 20px; background: #fff; border-bottom: 1px solid #eee; flex-wrap: wrap; }
+.admindash-nav-logo { display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit; }
+.admindash-nav-logo-img { height: 32px; width: 32px; object-fit: contain; }
+.admindash-nav-logo-text { font-size: 20px; }
+.ptag-bold { font-weight: 800; color: #8B3A3A; }
+.ptag-thin { font-weight: 300; color: #8B3A3A; }
+.admindash-nav-title { font-weight: 600; color: #444; }
+.admindash-branch-select, .admindash-branch-tag { margin-left: auto; padding: 6px 10px; border-radius: 8px; border: 1px solid #ddd; }
+.admindash-body { padding: 16px; max-width: 1100px; margin: 0 auto; }
+.admindash-alert { background: #fff3f3; color: #8B3A3A; border: 1px solid #f3caca; padding: 10px 14px; border-radius: 8px; margin-bottom: 16px; display: flex; align-items: center; gap: 8px; }
+.admindash-alert-dot { width: 8px; height: 8px; border-radius: 50%; background: #e74c3c; }
+.admindash-price-card, .admindash-card { background: #fff; border-radius: 12px; padding: 16px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.06); }
+.admindash-price-card { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; }
+.admindash-price-label { color: #8B3A3A; font-size: 14px; margin: 0; }
+.admindash-price-value { font-size: 28px; font-weight: 700; margin: 4px 0 0; }
+.admindash-price-unit { font-size: 14px; font-weight: 400; color: #999; }
+.admindash-price-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.admindash-price-input { padding: 8px 10px; border: 1px solid #ddd; border-radius: 8px; }
+.admindash-price-btn { padding: 8px 14px; background: #8B3A3A; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+.admindash-title { margin: 0 0 12px; }
+.admindash-table-scroll { overflow-x: auto; }
+.admindash-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.admindash-table th, .admindash-table td { text-align: left; padding: 10px 8px; border-bottom: 1px solid #f0f0f0; font-size: 14px; }
+.admindash-row-new { background: #fff8e1; }
+.admindash-badge { padding: 3px 10px; border-radius: 999px; font-size: 12px; }
+.admindash-badge--in { background: #e6f7ec; color: #27ae60; }
+.admindash-badge--out { background: #f3f3f3; color: #888; }
+.admindash-empty { text-align: center; color: #999; padding: 24px; }
